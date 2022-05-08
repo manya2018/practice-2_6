@@ -23,25 +23,5 @@ int main()
         }
         cout << endl;
     }
-    char CH = 0;
-    char F = 0;
-    cout << "      0     1     2     3     4     5     6     7     8     9     A     B     C     D     E     F" << endl;
-    for(int i = 1; i<16; i++){
-        CH = i + 55;
-        if (i<10)
-            wcout << i << "     ";
-        else
-            wcout << CH << "     ";
-        for(int j = 0; j<16; j++){
-            F = i*16 + j;
-            wcout << f;
-            if(f/100 == 0){
-                cout << "     ";
-            }
-            else{
-                cout << "     ";
-            }
-        }
-        cout << endl;
-    }
+    
 }
