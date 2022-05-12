@@ -46,9 +46,7 @@ expression convert(string s)
     }
     return y;
 }
-double solve()   /* TASK 3 (там в задании вооббще написано чтобы функция принимала переменную типа
-exspression,но я помумала, что это слишком скучно, поэтому вот функция, которая преобразует выражение, введенное пользователем, в переменную типа
- expression и выдает результат)*/
+double solve()   // TASK 3 
 {
     string s;
     cout << "enter your expression:" << endl;
