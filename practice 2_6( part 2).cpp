@@ -39,9 +39,7 @@ expression convert(string s)
     {
 
         char *ptr;
-        char *p;
         y.a = strtod(S, &ptr);
-        p = ptr;
         y.b = strtod(p, &ptr);
     }
     return y;
